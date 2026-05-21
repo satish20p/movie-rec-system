@@ -7,7 +7,7 @@ st.set_page_config(page_title="Hobby Movie Recs", page_icon="🎬", layout="cent
 
 # 2. Load Recommendation Engine
 try:
-    recommender = MovieRecommender('data/synthetic_movies.csv')
+    recommender = MovieRecommender('synthetic_movies.csv')
 except FileNotFoundError:
     st.error("Dataset not found! Please open your terminal and run 'python data/generate_data.py' first.")
     st.stop()

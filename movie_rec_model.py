@@ -5,7 +5,7 @@ from pathlib import Path
 
 
 class MovieRecommender:
-    def __init__(self, csv_path: str = 'data/synthetic_movies.csv'):
+    def __init__(self, csv_path: str = 'synthetic_movies.csv'):
         self.csv_path = Path(csv_path)
         self.df = self._load_dataset()
         self.tfidf = TfidfVectorizer(stop_words='english')

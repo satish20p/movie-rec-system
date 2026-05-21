@@ -35,8 +35,7 @@ for i in range(3200):
         'metadata_soup': metadata_soup.lower()
     })
 
-# Secure the data directory path
-os.makedirs('data', exist_ok=True)
+# Save the dataset to the main folder
 df = pd.DataFrame(data)
-df.to_csv('data/synthetic_movies.csv', index=False)
-print(f"✅ Success! Created {len(df)} rows in data/synthetic_movies.csv")
+df.to_csv('synthetic_movies.csv', index=False)
+print(f"✅ Success! Created {len(df)} rows in synthetic_movies.csv")
