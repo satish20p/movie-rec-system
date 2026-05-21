@@ -43,10 +43,12 @@ python -m streamlit run app.py
 
 ## Deploy to Streamlit
 
-1. Push your repository to GitHub.
+This project is ready for Streamlit Community Cloud deployment.
+
+1. Push your repository to GitHub (already done at `https://github.com/satish20p/movie-rec-system`).
 2. Go to [Streamlit Community Cloud](https://streamlit.io/cloud) and sign in.
-3. Click **New app** and connect your GitHub repository.
-4. Choose the correct repo and branch, then set the main file to `app.py`.
+3. Click **New app** and connect your GitHub account.
+4. Select `satish20p/movie-rec-system`, choose the branch `master`, and set the main file to `app.py`.
 5. Click **Deploy**.
 
 Streamlit will install dependencies from `requirements.txt` and launch `app.py` automatically.
