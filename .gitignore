@@ -1,0 +1,22 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+env/
+build/
+dist/
+.eggs/
+*.egg-info/
+.python-version
+
+# Streamlit
+.streamlit/
+
+# Local data artifacts
+data/synthetic_movies.csv
+
+# VS Code
+.vscode/
